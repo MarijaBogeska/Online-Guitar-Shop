@@ -20,8 +20,14 @@ This Guitar Shop is a simple React-based application with three main pages: **Gu
 - TypeScript
 - React Router DOM
 - CSS
-- GraphQL  
-- Apollo Client 
+- GraphQL
+- Apollo Client
+
+## 🔗 GraphQL API
+
+```
+https://graphql-api-brown.vercel.app/api/graphql
+```
 
 ## 🚀 Getting Started
 
@@ -32,9 +38,4 @@ git clone https://github.com/MarijaBogeska/Online-Guitar-Shop.git
 cd guitar-app
 npm install
 npm run dev
-
-## 🔗 GraphQL API
-
-```
-https://graphql-api-brown.vercel.app/api/graphql
 ```
