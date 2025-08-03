@@ -1,0 +1,55 @@
+.filters {
+  display: flex;
+  margin: auto;
+  width: 870px;
+  margin-top: 50px;
+}
+.FilterSection {
+  position: relative;
+  margin: auto;
+  justify-self: center;
+}
+.FilterSection select {
+  width: 332px;
+  height: 74px;
+  border-radius: 4px;
+  padding: 16px;
+  gap: 7px;
+  border: 1px solid #d0d0d0;
+  font-size: 28px;
+  color: #b8b8c0;
+  font-weight: 450;
+}
+.FilterSection select:focus,
+select:hover {
+  color: #ff6c33;
+  border: 1px solid #ff6c33;
+}
+.FilterSection svg {
+  left: 10px;
+  width: 31px;
+  height: 31px;
+  right: 16px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.productList {
+  display: flex;
+  width: 1200px;
+  overflow: visible;
+  max-height: 676px;
+  justify-content: center;
+  gap: 50px;
+  margin: 120px;
+}
+
+select > option {
+  background-color: #fff;
+  color: #9292a3;
+  text-align: center;
+}
+
+

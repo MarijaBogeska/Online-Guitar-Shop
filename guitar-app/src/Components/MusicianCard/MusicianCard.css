@@ -1,0 +1,23 @@
+.MusicianCard{
+    width: 492px;
+    height: 549px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 1 px solid #EBECEF;
+    background-color: #FFEFE8;
+}
+.MusicianCard .image img{
+    width: 444px;
+    height: 444px;
+    border-radius: 4px;
+    object-fit: cover;
+    display: flex;
+    margin: auto;
+}
+.MusicianCard .name{
+    font-size:24px;
+    font-weight: 500;
+    color:#666666 ;
+    text-align: center;
+}

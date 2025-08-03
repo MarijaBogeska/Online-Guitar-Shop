@@ -1,0 +1,25 @@
+.circle-pagination {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 50px;
+}
+.circle-pagination button {
+  width: 14px;
+  height: 14px;
+}
+.circle-btn {
+  border-radius: 50%;
+  background-color: #D9D9D9;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.circle-btn:hover:not(.active) {
+  background-color: #ccc;
+}
+
+.circle-btn.active {
+  transform: scale(1.5);
+}

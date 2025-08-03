@@ -1,0 +1,11 @@
+.GuitarModelPage .headingText {
+  font-weight: 700;
+}
+.GuitarModelPage{
+    max-height: 1600px;
+}
+.GuitarModelPage .btn{
+    position: absolute;
+    left: 31px;
+    top: 33px;
+}

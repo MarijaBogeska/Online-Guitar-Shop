@@ -1,0 +1,28 @@
+.GuitarCard {
+  width: 364px;
+  height: 280px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.GuitarCard .product img{
+  height: 190px;
+  width: 364px;
+  object-fit: contain;
+}
+.GuitarCard .productDetails {
+  display: flex;
+  flex-direction: column;
+  height: 50px;
+  justify-content: space-between;
+  color: #666666;
+  font-size: 14px;
+  font-weight: 400;
+}
+.GuitarCard .productDetails div:first-child {
+  color: #121212;
+  font-size: 16px;
+  font-weight: 500;
+}

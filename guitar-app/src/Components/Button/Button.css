@@ -1,0 +1,16 @@
+.Button {
+  height: 20px;
+  font-size: 12px;
+  color: #9292a3;
+  display: flex;
+  gap: 20px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 16px;
+}
+.Button .btnText {
+  font-weight: 500;
+  text-align: center;
+  color: #3d3d46;
+}

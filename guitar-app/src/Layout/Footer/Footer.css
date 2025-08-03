@@ -1,0 +1,90 @@
+.Footer {
+  height: 380px;
+  background-color: #eee;
+  display: flex;
+  flex-direction: column;
+}
+
+.Footer .section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 1120px;
+  height: 257px;
+  margin: 80px auto;
+}
+
+.Footer .first,
+.Footer .social {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Footer .logoSection {
+  display: flex;
+  gap: 14px;
+  width: 263px;
+  height: 54px;
+}
+
+.Footer .logoSection img {
+  width: 50px;
+  height: 50px;
+}
+
+.Footer .name {
+  font-size: 40px;
+  color: #121212;
+}
+
+.Footer .secondSection {
+  display: flex;
+  width: 311px;
+  height: 149px;
+  justify-content: space-between;
+}
+
+.Footer .secondSection div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Footer .navigation {
+  display: flex;
+  height: 102px;
+  flex-direction: column;
+  font-size: 16px;
+  color: #12121299;
+}
+
+.Footer p {
+  margin: auto 0;
+}
+
+.Footer .heading {
+  font-weight: 700;
+  font-size: 18px;
+  margin: 0;
+  color: #121212;
+}
+
+.Footer .copyright {
+  color: #12121299;
+  margin: 0;
+  text-align: center;
+}
+
+.Footer svg {
+  width: 32px;
+  height: 33px;
+  align-self: center;
+}
+
+.Footer .thirdSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 160px;
+  height: 72px;
+}
