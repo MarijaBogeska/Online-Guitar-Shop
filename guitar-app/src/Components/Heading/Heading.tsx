@@ -15,7 +15,6 @@ interface HeadingProps {
 }
 export default function Heading({
   beforeSpan,
-  logo,
   span,
   afterSpan,
   paragraph,
@@ -27,7 +26,7 @@ export default function Heading({
   return (
     <div className="Heading">
       <section>
-        {photo && <CornerPhoto photo={photo} style={divStyle} imgStyle={imgStyle} logo={logo} />}
+        {photo && <CornerPhoto photo={photo} style={divStyle} imgStyle={imgStyle} />}
         <h1 style={hStyle}>
           {beforeSpan}
           <span>{span}</span>

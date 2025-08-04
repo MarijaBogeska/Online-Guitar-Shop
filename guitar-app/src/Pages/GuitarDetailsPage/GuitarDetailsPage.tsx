@@ -85,7 +85,7 @@ export default function GuitarDetailsPage() {
             >
               Specification
             </button>
-            <button
+            <button 
               onClick={() => setActiveSection("musicians")}
               className={
                 activeSection === "musicians" ? "active-btn" : "inactive-btn"
@@ -108,7 +108,7 @@ export default function GuitarDetailsPage() {
               </ul>
             </div>
           ) : (
-            <>
+            <div>
               <div className="musicianList">
                 {currentMusicians.map((musician, i) => (
                   <MusicianCard key={i} musician={musician} />
@@ -121,7 +121,7 @@ export default function GuitarDetailsPage() {
                   onPageChange={setCurrentPage}
                 />
               )}
-            </>
+            </div>
           )}
         </section>
       </div>
