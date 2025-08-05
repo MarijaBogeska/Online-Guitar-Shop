@@ -12,6 +12,7 @@ body {
   width: 1440px;
   margin: 0 auto;
   flex-direction: column;
+  position: relative;
 }
 .headingText {
   font-size: 44px;
