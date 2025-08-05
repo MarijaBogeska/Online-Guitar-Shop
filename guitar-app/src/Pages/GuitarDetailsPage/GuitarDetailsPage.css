@@ -1,3 +1,8 @@
+.GuitarDetailsPage{
+  margin: 0;
+  padding: 0;
+  width: 1440px;
+}
 .GuitarDetailsPage .sections {
   display: flex;
   width: 100%;
@@ -5,6 +10,7 @@
 }
 .GuitarDetailsPage .sections button {
   width: 50%;
+  background-color: transparent;
   height: 69px;
   text-align: center;
   font-weight: 400;

@@ -35,11 +35,11 @@ export default function GuitarModelsPage() {
       </div>
 
       <Heading
-      logo="../../images/logo.png"
+        logo="../../images/logo.png"
         beforeSpan="Play like a"
         span=" Rock star"
         divStyle={{
-          width: "536px",
+          width: "672px",
           marginBottom: "40px",
           height: "460px",
           overflow: "visible",
@@ -60,11 +60,13 @@ export default function GuitarModelsPage() {
         Check out the
         <span className="headingSpan"> Section</span>
       </div>
-      <FilterSection
-        categories={brand.categories}
-        products={products}
-        brand={brand}
-      />
+      <div className="guitars">
+        <FilterSection
+          categories={brand.categories}
+          products={products}
+          brand={brand}
+        />
+      </div>
     </div>
   );
 }

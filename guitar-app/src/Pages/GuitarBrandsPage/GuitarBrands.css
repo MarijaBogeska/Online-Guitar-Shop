@@ -1,3 +1,8 @@
+.GuitarBrandsPage{
+  margin: 0 auto;
+  padding: 0;
+  width: 1440px;
+}
 .GuitarBrandsPage .headingText {
   font-weight: 700;
 }
@@ -101,6 +106,7 @@
   width: 214px;
   height: 461px;
   margin-top: 72px;
+  border-radius: 25px;
 }
 .GuitarBrandsPage .appImgs img:first-child {
   margin-top: 0px;

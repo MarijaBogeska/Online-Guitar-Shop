@@ -1,11 +1,20 @@
+.GuitarModelPage {
+  margin: 0;
+  padding: 0;
+  width: 1440px;
+}
 .GuitarModelPage .headingText {
   font-weight: 700;
 }
-.GuitarModelPage{
-    max-height: 1600px;
+.GuitarModelPage {
+  max-height: 1500px;
 }
-.GuitarModelPage .btn{
-    position: absolute;
-    left: 31px;
-    top: 33px;
+.GuitarModelPage .btn {
+  position: absolute;
+  left: 31px;
+  top: 33px;
+}
+.GuitarModelPage .guitars {
+  display: flex;
+  justify-content: center;
 }
